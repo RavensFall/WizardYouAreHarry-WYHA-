@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YouAreAWizardHarry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="find_spell">Find Spell</string>
+    <string name="enter_the_name_of_the_spell">Enter the name of the spell</string>
+    <string name="spells_info">Spells Info:</string>
+    <string name="information_about_spells">Information about spells</string>
+</resources>
