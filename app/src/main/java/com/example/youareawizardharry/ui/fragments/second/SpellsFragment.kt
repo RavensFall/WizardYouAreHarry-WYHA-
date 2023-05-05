@@ -1,12 +1,10 @@
-package com.example.youareawizardharry.View.fragments.second
+package com.example.youareawizardharry.ui.fragments.second
 
-import android.os.Build.VERSION_CODES.P
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.youareawizardharry.R
-import com.example.youareawizardharry.View.fragments.second.SpellsFragmentArgs
 import com.example.youareawizardharry.databinding.FragmentSpellsBinding
 
 class SpellsFragment : Fragment(R.layout.fragment_spells) {

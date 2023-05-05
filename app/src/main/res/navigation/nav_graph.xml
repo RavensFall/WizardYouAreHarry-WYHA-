@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.youareawizardharry.View.fragments.first.FirstFragment"
+        android:name="com.example.youareawizardharry.ui.fragments.first.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/spellsFragment"
-        android:name="com.example.youareawizardharry.View.fragments.second.SpellsFragment"
+        android:name="com.example.youareawizardharry.ui.fragments.second.SpellsFragment"
         android:label="fragment_spells"
         tools:layout="@layout/fragment_spells" >
         <argument

@@ -1,4 +1,4 @@
-package com.example.youareawizardharry.data
+package com.example.youareawizardharry.data.factory
 
 import retrofit2.Retrofit
 import okhttp3.OkHttpClient

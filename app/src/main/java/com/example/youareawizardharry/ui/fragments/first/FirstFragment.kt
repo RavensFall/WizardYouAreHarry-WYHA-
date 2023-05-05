@@ -1,4 +1,4 @@
-package com.example.youareawizardharry.View.fragments.first
+package com.example.youareawizardharry.ui.fragments.first
 
 import android.os.Bundle
 import android.view.View

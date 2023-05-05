@@ -1,4 +1,4 @@
-package com.example.youareawizardharry.View.fragments.first
+package com.example.youareawizardharry.ui.fragments.first
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
