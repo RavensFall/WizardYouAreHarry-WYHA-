@@ -1,7 +1,7 @@
-package com.example.youareawizardharry
+package com.example.youareawizardharry.data.interfaces
 
+import com.example.youareawizardharry.data.models.Spells
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface SpellsApi {

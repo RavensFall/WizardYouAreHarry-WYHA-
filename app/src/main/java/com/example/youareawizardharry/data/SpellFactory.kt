@@ -1,6 +1,5 @@
 package com.example.youareawizardharry.data
 
-import com.example.youareawizardharry.SpellsApi
 import retrofit2.Retrofit
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -8,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object SpellFactory {
     private val BASE_URL = "https://wizard-world-api.herokuapp.com/"
-    val SpellsApi = retrofitCreate().create(SpellsApi::class.java)
+    val SpellsApi = retrofitCreate().create(com.example.youareawizardharry.data.interfaces.SpellsApi::class.java)
 
     private fun retrofitCreate(): Retrofit {
         val interceptor = HttpLoggingInterceptor()

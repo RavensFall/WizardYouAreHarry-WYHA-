@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.youareawizardharry.View.fragments.first.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_spellsFragment"
+            app:destination="@id/spellsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spellsFragment"
+        android:name="com.example.youareawizardharry.View.fragments.second.SpellsFragment"
+        android:label="fragment_spells"
+        tools:layout="@layout/fragment_spells" >
+        <argument
+            android:name="spell"
+            app:argType="com.example.youareawizardharry.data.models.Spells" />
+    </fragment>
+</navigation>
